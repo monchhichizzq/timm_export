@@ -10,7 +10,7 @@ import numpy as np
 from custom_models_save.efficientnet_sp.efficientnet_sp import EfficientNet
 from timm.models._efficientnet_blocks import InvertedResidual
 from timm.models._efficientnet_blocks import DepthwiseSeparableConv
-from sp_model_cfg.example_blc_cfg import lite3_blc_cfg
+from sp_model_cfg.example_blc_cfg import lite4_blc_cfg as lite3_blc_cfg
 
 #   'efficientnet-lite0': (1.0, 1.0, 224, 0.2), 160 / 224
 #   'efficientnet-lite1': (1.0, 1.1, 240, 0.2), 172 / 224
@@ -24,10 +24,16 @@ from sp_model_cfg.example_blc_cfg import lite3_blc_cfg
 # arch_name = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/prune/tf_efficientnet_lite3_0.64G_A3/20250504-113341-tf_efficientnet_lite3-210/best_arch.pth"
 # model_path = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/prune/tf_efficientnet_lite3_0.64G_A3/20250504-113341-tf_efficientnet_lite3-210/model_best.pth.tar"
 
-model_name = "lite3_0.9G_A3"
+# model_name = "lite3_0.9G_A3"
+# val_img_size = 280
+# arch_name = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/prune/tf_efficientnet_lite3_0.9G_A3/20250504-113152-tf_efficientnet_lite3-210/best_arch.pth"
+# model_path = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/prune/tf_efficientnet_lite3_0.9G_A3/20250504-113152-tf_efficientnet_lite3-210/model_best.pth.tar"
+
+model_name = "lite4_1.24G_A3"
 val_img_size = 280
 arch_name = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/prune/tf_efficientnet_lite3_0.9G_A3/20250504-113152-tf_efficientnet_lite3-210/best_arch.pth"
 model_path = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/prune/tf_efficientnet_lite3_0.9G_A3/20250504-113152-tf_efficientnet_lite3-210/model_best.pth.tar"
+
 
 cfg_dir = "sp_model_cfg"
 os.makedirs(cfg_dir, exist_ok=True)
