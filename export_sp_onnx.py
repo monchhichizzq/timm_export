@@ -20,15 +20,15 @@ from utils import set_lite_threshold
 
 ############# set params #############
 # val_img_size = 280
-# arch_name = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/prune/tf_efficientnet_lite3_0.64G_A3/20250504-113341-tf_efficientnet_lite3-210/best_arch.pth"
-# model_path = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/prune/tf_efficientnet_lite3_0.64G_A3/20250504-113341-tf_efficientnet_lite3-210/model_best.pth.tar"
-# cfg_path = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/tf_export/sp_model_cfg/lite3_0.64G_A3.json"
+# arch_name = "pytorch-image-models/prune/tf_efficientnet_lite3_0.64G_A3/20250504-113341-tf_efficientnet_lite3-210/best_arch.pth"
+# model_path = "pytorch-image-models/prune/tf_efficientnet_lite3_0.64G_A3/20250504-113341-tf_efficientnet_lite3-210/model_best.pth.tar"
+# cfg_path = "pytorch-image-models/tf_export/sp_model_cfg/lite3_0.64G_A3.json"
 # model_name = "lite3_0.64G_A3"
 
 val_img_size = 280
-arch_name = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/prune/tf_efficientnet_lite3_0.9G_A3/20250504-113152-tf_efficientnet_lite3-210/best_arch.pth"
-model_path = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/prune/tf_efficientnet_lite3_0.9G_A3/20250504-113152-tf_efficientnet_lite3-210/model_best.pth.tar"
-cfg_path = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/tf_export/sp_model_cfg/lite3_0.9G_A3.json"
+arch_name = "pytorch-image-models/prune/tf_efficientnet_lite3_0.9G_A3/20250504-113152-tf_efficientnet_lite3-210/best_arch.pth"
+model_path = "pytorch-image-models/prune/tf_efficientnet_lite3_0.9G_A3/20250504-113152-tf_efficientnet_lite3-210/model_best.pth.tar"
+cfg_path = "pytorch-image-models/tf_export/sp_model_cfg/lite3_0.9G_A3.json"
 model_name = "lite3_0.9G_A3"
 
 print("model_name:", model_name)

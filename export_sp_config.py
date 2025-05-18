@@ -21,18 +21,18 @@ from sp_model_cfg.example_blc_cfg import lite4_blc_cfg as lite3_blc_cfg
 ############# set params #############
 # model_name = "lite3_0.64G_A3"
 # val_img_size = 280
-# arch_name = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/prune/tf_efficientnet_lite3_0.64G_A3/20250504-113341-tf_efficientnet_lite3-210/best_arch.pth"
-# model_path = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/prune/tf_efficientnet_lite3_0.64G_A3/20250504-113341-tf_efficientnet_lite3-210/model_best.pth.tar"
+# arch_name = "pytorch-image-models/prune/tf_efficientnet_lite3_0.64G_A3/20250504-113341-tf_efficientnet_lite3-210/best_arch.pth"
+# model_path = "pytorch-image-models/prune/tf_efficientnet_lite3_0.64G_A3/20250504-113341-tf_efficientnet_lite3-210/model_best.pth.tar"
 
 # model_name = "lite3_0.9G_A3"
 # val_img_size = 280
-# arch_name = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/prune/tf_efficientnet_lite3_0.9G_A3/20250504-113152-tf_efficientnet_lite3-210/best_arch.pth"
-# model_path = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/prune/tf_efficientnet_lite3_0.9G_A3/20250504-113152-tf_efficientnet_lite3-210/model_best.pth.tar"
+# arch_name = "pytorch-image-models/prune/tf_efficientnet_lite3_0.9G_A3/20250504-113152-tf_efficientnet_lite3-210/best_arch.pth"
+# model_path = "pytorch-image-models/prune/tf_efficientnet_lite3_0.9G_A3/20250504-113152-tf_efficientnet_lite3-210/model_best.pth.tar"
 
 model_name = "lite4_1.24G_A3"
 val_img_size = 280
-arch_name = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/prune/tf_efficientnet_lite3_0.9G_A3/20250504-113152-tf_efficientnet_lite3-210/best_arch.pth"
-model_path = "/home/zzq/Documents/apps/image_cls/pytorch-image-models/prune/tf_efficientnet_lite3_0.9G_A3/20250504-113152-tf_efficientnet_lite3-210/model_best.pth.tar"
+arch_name = "pytorch-image-models/prune/tf_efficientnet_lite3_0.9G_A3/20250504-113152-tf_efficientnet_lite3-210/best_arch.pth"
+model_path = "pytorch-image-models/prune/tf_efficientnet_lite3_0.9G_A3/20250504-113152-tf_efficientnet_lite3-210/model_best.pth.tar"
 
 
 cfg_dir = "sp_model_cfg"
